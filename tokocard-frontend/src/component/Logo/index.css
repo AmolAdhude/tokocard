@@ -1,0 +1,35 @@
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+.slick-list {
+  margin: 0 -7px !important;
+}
+
+.slick-slide > div {
+  padding: 0 7px !important;
+}
+
+.logo-size {
+  text-align: center;
+  height: 100px;
+  width: 120px;
+  background-color: grey;
+}
+.service-info {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: normal;
+  list-style-type: none;
+}

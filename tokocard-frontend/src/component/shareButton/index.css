@@ -1,0 +1,133 @@
+.modal {
+  font-size: 12px;
+  background-color: #e7e1e1;
+  height: 50vh;
+  width: 90vw;
+  border-radius: 5px;
+  border: none;
+  margin: 10px;
+}
+.modal > .header {
+  width: 90%;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal > .actions {
+  width: 90%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: black;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+  color: #fff;
+}
+.btn-book-now {
+  background: #2955ac;
+  border-radius: 0;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  height: 50px;
+  line-height: 40px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform-origin: bottom right;
+  width: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  letter-spacing: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .btn-book-now {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+.card-heading {
+  font-family: "roboto";
+  font-size: 18px;
+  font-weight: 400px;
+  color: #000;
+}
+.input-field {
+  padding: 10px;
+  color: #000;
+  border: 1px solid #cfcece;
+  border-radius: 8px;
+  width: 100%;
+}
+.share-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.submit-btn {
+  align-items: center;
+  appearance: button;
+  background-color: #0276ff;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color 0.13s ease-in-out, background 0.13s ease-in-out,
+    opacity 0.13s ease-in-out, box-shadow 0.13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-btn :active {
+  background-color: #006ae8;
+}
+
+.submit-btn :hover {
+  background-color: #1c84ff;
+}

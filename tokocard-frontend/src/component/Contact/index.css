@@ -1,0 +1,20 @@
+.contact-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ul-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.contact-icon {
+  font-size: 34px;
+  background-color: #2955ac;
+  border-radius: 100%;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+}

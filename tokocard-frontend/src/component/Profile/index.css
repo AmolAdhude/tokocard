@@ -1,0 +1,150 @@
+.profile-container {
+  height: 245px;
+  background-color: #d9d9d9;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.banner {
+  padding: 30px;
+  color: #808080;
+  text-align: center;
+  font-size: 32px;
+}
+.profile-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.profile-image {
+  margin-top: 30px;
+  margin-left: 20px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 576px) {
+  .profile-image {
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.profile-info {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-left: 40px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+@media screen and (max-width: 576px) {
+  .profile-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 138px;
+    margin-left: 20px;
+    text-align: left;
+  }
+}
+
+.name {
+  font-family: "roboto";
+  font-size: 24px;
+  line-height: 1px;
+  letter-spacing: 1px;
+  color: #000;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .name {
+    font-family: "roboto";
+    font-size: 16px;
+    line-height: 0.5px;
+    letter-spacing: 0.5px;
+    color: #000;
+    font-weight: 500;
+  }
+}
+
+.position {
+  font-family: "roboto";
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 576px) {
+  .position {
+    font-family: "roboto";
+    font-size: 12px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+.company-name {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #000;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+@media screen and (max-width: 576px) {
+  .company-name {
+    font-family: Roboto;
+    font-size: 14px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+.social-icon {
+  font-size: 32px;
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .social-icon {
+    font-size: 24px;
+    display: flex;
+  }
+}
+
+.facebook {
+  color: #1b78e8;
+}
+.twitter {
+  color: #239aee;
+}
+.linkedin {
+  color: #1958c2;
+}
+.snapchat {
+  color: #fef715;
+}

@@ -1,0 +1,22 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2955ac;
+  margin: 10px;
+}
+.about-heading {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.about-info {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: normal;
+}

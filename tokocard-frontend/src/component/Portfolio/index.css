@@ -1,0 +1,33 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f2f2f2;
+  margin: 10px;
+}
+.portfolio-heading {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.portfolio-info {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: normal;
+  list-style-type: none;
+}
+.images {
+  height: 30%;
+  width: 30%;
+  padding: 10px;
+}
+.list-image {
+  display: flex;
+  flex-wrap: wrap;
+}
