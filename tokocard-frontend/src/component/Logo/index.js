@@ -51,25 +51,53 @@ class Logo extends Component {
         </p>
         <Slider {...settings}>
           <div className="logo-size">
-            <img src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png" alt="logo"/>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
           <div className="logo-size">
-             <img src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png" alt="logo"/>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
           <div className="logo-size">
-             <img src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png" alt="logo"/>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
           <div className="logo-size">
-             <img src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png" alt="logo"/>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
           <div className="logo-size">
-            <img src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png" alt="logo"/>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
           <div className="logo-size">
-            <h3>Logo</h3>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
           <div className="logo-size">
-             <img src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png" alt="logo"/>
+            <img
+              src="https://res.cloudinary.com/dug30iszj/image/upload/v1663652313/about%20assignment/image001_ci84yl.png"
+              alt="logo"
+              className="company-logo"
+            />
           </div>
         </Slider>
       </div>

@@ -33,3 +33,7 @@
   line-height: normal;
   list-style-type: none;
 }
+.company-logo {
+  height: 80%;
+  width: 80%;
+}
